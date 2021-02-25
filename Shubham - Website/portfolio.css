@@ -1,0 +1,231 @@
+body{
+    background-image:url(Images/bg.png);
+    background-repeat:round;
+    background-size:cover;
+    background-attachment: fixed;
+}
+.logo-bg{
+    position: absolute;
+    margin-top:30px;
+    margin-left:30px;
+    width: 126px;
+    height: 126px;
+    border-radius: 80px;
+    background-color:rgb(0, 0, 0);
+    border-width: thick;
+}
+.logo{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 12px;
+    border-radius: 90px;
+    height:100px; 
+    width:100px;
+}
+.nav-bar{
+    position:absolute;
+    margin-top:80px;
+    margin-left:700px;
+    width: 750px;
+    height: 60px;
+    background-color: black;
+    border-radius:30px;
+}
+.home-btn{
+    position: absolute;
+    margin-top:15px;
+    margin-left:35px;
+    color: #FFFF;
+    font-size: 1.5em;
+    font-family: 'Open Sans';
+    font-style: normal;
+    
+}
+.portfolio-btn{
+    position: absolute;
+    margin-top:15px;
+    margin-left:155px;
+    color: #68B0E5;
+    font-size:1.5em;
+    font-family:'Open Sans';
+    font-style: normal 
+}
+.resume-btn{
+    position: absolute;
+    margin-top:15px;
+    margin-left:320px;                    
+    color:#FFFF;
+    font-size: 1.5em;
+    font-family:'Open Sans';
+    font-style: normal
+}
+.about-btn{
+    position: absolute;
+    margin-top:15px;
+    margin-left:480px;
+    font-size: 1.5em;
+    color: #FFFF;
+    font-family:'Open Sans';
+    font-style: normal;
+}
+.contact-btn{
+    position: absolute;
+    margin-top:15px;
+    margin-left: 620px;
+    font-size: 1.5em;
+    color: #FFFF;
+    font-family:'Open Sans';
+    font-style: normal;
+}
+.heading{
+    color: #FFFF;
+    position: absolute;
+    margin-top:150px;
+    margin-left:800px;
+    font:100;
+    font-size:8em;
+    font-weight:200;
+}
+.line2{
+    position: absolute;
+    margin-top: 290px;
+    margin-left: 750px;
+    height: 70px;
+    width: 600px;
+}
+.container{
+    position: absolute;
+    margin-top:280px;
+    margin-left: 80px;
+    height:1400px;
+    width:1360px;
+}
+.sub-container1{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    height:500px;
+    width:633px;
+}
+.sub-container2{
+    position: absolute;
+    margin-top:80px;
+    margin-left: 653px;
+    background-color: rgba(0, 0, 0, 0.6);
+    height:420px;
+    width:707px;
+}
+.sub-container3{
+    position: relative;
+    margin-top:520px;
+    background-color: rgba(0, 0, 0, 0.6);
+    height:420px;
+    width:1360px;
+}
+.sub-container4{
+    position: relative;
+    margin-top:20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    height:420px;
+    width:1360px;
+}
+.image1{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 15px;
+    height:460px;
+    width: 255px;
+}
+.image2{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 283px;
+    height:225px;
+    width: 335px;
+}
+.image3{
+    position: absolute;
+    margin-top: 255px;
+    margin-left: 283px;
+    height:225px;
+    width: 335px;
+}
+.image7{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 15px;
+    height:380px;
+    width: 220px;
+}
+.image15{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 475px;
+    height:380px;
+    width: 220px;
+}
+.image4{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 245px;
+    height:380px;
+    width: 220px;
+}
+.image9{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 15px;
+    height:380px;
+    width: 253px;
+}
+.image12{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 285px;
+    height:380px;
+    width: 253px;
+}
+
+.image10{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 555px;
+    height:380px;
+    width: 253px;
+}
+
+.image11{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 825;
+    height:380px;
+    width: 253px;
+}
+
+.image8{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 1095;
+    height:380px;
+    width: 253px;
+}
+.image5{
+    position: absolute;
+    margin-top: 20px;
+    margin-left:15px;
+    height: 380px;
+    width: 435px;
+}
+.image21{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 463px;
+    height: 380px;
+    width: 435px;
+}
+.image6{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 910px;
+    height: 380px;
+    width: 435px;
+}

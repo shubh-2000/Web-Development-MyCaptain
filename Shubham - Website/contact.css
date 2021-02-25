@@ -1,0 +1,211 @@
+body{
+    background-image:url(Images/bg.png);
+    background-repeat:round;
+    background-size:cover;
+    background-attachment: fixed;
+}
+.logo-bg{
+    position: absolute;
+    margin-top:30px;
+    margin-left:30px;
+    width: 126px;
+    height: 126px;
+    border-radius: 80px;
+    background-color:rgb(0, 0, 0);
+    border-width: thick;
+}
+.logo{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 12px;
+    border-radius: 90px;
+    height:100px; 
+    width:100px;
+}
+.nav-bar{
+    position:absolute;
+    margin-top:80px;
+    margin-left:700px;
+    width: 750px;
+    height: 60px;
+    background-color: black;
+    border-radius:30px;
+}
+.home-btn{
+    position: absolute;
+    margin-top:15px;
+    margin-left:35px;
+    color: #FFFF;
+    font-size: 1.5em;
+    font-family: 'Open Sans';
+    font-style: normal;
+    
+}
+.portfolio-btn{
+    position: absolute;
+    margin-top:15px;
+    margin-left:155px;
+    color: #FFFF;
+    font-size:1.5em;
+    font-family:'Open Sans';
+    font-style: normal 
+}
+.resume-btn{
+    position: absolute;
+    margin-top:15px;
+    margin-left:320px;                    
+    color:#FFFF;
+    font-size: 1.5em;
+    font-family:'Open Sans';
+    font-style: normal
+}
+.about-btn{
+    position: absolute;
+    margin-top:15px;
+    margin-left:480px;
+    font-size: 1.5em;
+    color: #FFFF;
+    font-family:'Open Sans';
+    font-style: normal;
+}
+.contact-btn{
+    position: absolute;
+    margin-top:15px;
+    margin-left: 620px;
+    font-size: 1.5em;
+    color: #68B0E5;
+    font-family:'Open Sans';
+    font-style: normal;
+}
+.heading{
+    color: #FFFF;
+    position: absolute;
+    margin-top:100px;
+    margin-left:200px;
+    font:100;
+    font-size:6.5em;
+    font-weight:200;
+}
+.contact-bg{
+    position: absolute;
+    margin-top: 360px;
+    margin-left: 30px;
+    height: 200px;
+    width: 700px;
+    background-color:#38b6ffa6;
+    }
+.contact-heading{
+    font-family: Anton;
+    font-size: 2.5em;
+    position: absolute;
+    margin-top: 375px;
+    margin-left: 60px;
+    color: #FFFF;
+    font-weight: 100;
+    background-color:#000000a6;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.email{
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 60px;
+    font-size: 2.2em;
+    color: #FFFF;
+    font-family: Anonymous Pro;
+}
+.phone-no{
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 60px;
+    font-size: 2.2em;
+    color: #FFFF;
+    font-family: Anonymous Pro;
+}
+.social-bg{
+    position: absolute;
+    margin-top: 360px;
+    margin-left: 830px;
+    height: 300px;
+    width: 600px;
+    background-color:#000000a6;
+}
+.social-heading{
+    font-family: Anton;
+    font-size: 2.5em;
+    position: absolute;
+    margin-top: 375px;
+    margin-left: 860px;
+    color: black;
+    font-weight: 100;
+    background-color:hsla(0, 0%, 100%, 0.452);
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.div-socials{
+    position: absolute;
+    top:470px;
+    left: 858px;
+    height:180px;
+    width:50px;
+}
+.linkedin-icon{
+    height:40px;
+    width:40px;
+    position: absolute;
+    top: 138px;
+    left: 5px;
+}
+.instagram-icon{
+    height:45px;
+    width:45px;
+    left: 5px;
+}
+.github-icon{
+    height:40px; 
+    width:40px;
+    position: absolute;
+    top: 48px;
+    left: 5px;
+}
+.facebook-icon{
+    height:40px; 
+    width:40px;
+    position: absolute;
+    top: 93px;
+    left: 5px;
+}
+.instagram{
+    font-family:Anonymous Pro;
+    font-size: 2.3em;
+    color: #FFFF;
+    position: absolute;
+    position: absolute;
+    top: 430px;
+    left: 920px;
+}
+.github{
+    position: absolute;
+    top: 480px;
+    left: 920px;
+    font-size: 2.2em;
+    color: #FFFF;
+    font-family: Anonymous Pro;
+}
+.facebook{
+    position: absolute;
+    top: 530px;
+    left: 920px;
+    font-size: 2.2em;
+    color: #FFFF;
+    font-family: Anonymous Pro;
+}
+.linkedin{
+    position: absolute;
+    top: 580px;
+    left: 920px;
+    font-size: 2.2em;
+    color: #FFFF;
+    font-family: Anonymous Pro;
+}
+

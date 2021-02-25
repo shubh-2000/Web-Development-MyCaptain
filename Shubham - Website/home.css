@@ -1,0 +1,160 @@
+body{
+    background-image:url(Images/bg.png);
+    background-repeat:round;
+    background-size:cover;
+    background-attachment: fixed;
+}
+.logo-bg{
+    position: absolute;
+    margin-top:30px;
+    margin-left:30px;
+    width: 126px;
+    height: 126px;
+    border-radius: 80px;
+    background-color:rgb(0, 0, 0);
+    border-width: thick;
+}
+
+.logo{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 12px;
+    border-radius: 90px;
+    height:100px; 
+    width:100px;
+}
+.contact-bg{
+    position: absolute;
+    border-radius: 50px;
+    background-color:rgb(0, 0, 0);
+    margin-top:75px;
+    margin-left:1228px;
+    width: 250px;
+    height: 60px;
+}
+.phoneimg{
+    margin-left: 15px;
+    margin-top: 15px;
+    height:40px;
+}
+.contact-heading{
+    color: #FFFF;
+    position:absolute;
+    margin-top: 83px;
+    margin-left: 1305px;
+    font-size: 2.5em;
+    font:800;
+}
+.heading{
+    color: #FFFF;
+    position: absolute;
+    margin-top:83px;
+    margin-left:450px;
+    font-size:12em;
+    font-weight: 200;
+}
+.name-heading{
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 30px;
+    width: 600px;
+    height: 200px;
+}
+.name1{
+    position: absolute;
+    color: #FFFF;
+    font-family: Lovelo;
+    font-weight: 300;
+    font-size:4.4em;
+}
+.name2{
+    padding: 1px;
+    color: #FFFF;
+    position: absolute;
+    margin-top: 145px;
+    font-size: 3em;
+    font-family: League Spartan;
+}
+.name3{
+    padding: 1px;
+    color:8B0E5;
+    position: absolute;
+    margin-top: 145px;
+    margin-left:135px;
+    font-size: 3em;
+    font-family: League Spartan;
+}
+.arrow-img{
+    position: absolute;
+    margin-top: 420px;
+    margin-left: 30px;
+    height:250px;
+    width:610px;
+}
+.side-img{
+    position:absolute;
+    margin-left:1070px;
+    margin-top:182px;
+    height:76%; 
+    width:26%;
+}
+.nav-bar{
+    position: absolute;
+    margin-top:615px;
+    margin-left:45px;
+    width: 460px;
+    height: 50px;
+    border-radius: 30px;
+    background-color:black;
+}
+.home-btn{
+    position: absolute;
+    margin-top: 605px;
+    margin-left:72px;
+    font-size: 1.5em;
+    color:68B0E5;
+    font-family:'Open Sans';
+    font-style: normal;
+}
+.portfolio-btn{
+    position: absolute;
+    margin-top: 605px;
+    margin-left:163px;
+    color: #FFFF;
+    font-size:1.5em;
+    font-family:'Open Sans';
+    font-style: normal;
+}
+.resume-btn{
+    position: absolute;
+    margin-top: 605px;
+    margin-left: 285px;
+    color: #FFFF;
+    font-size: 1.5em;
+    font-family:'Open Sans';
+    font-style: normal;
+}
+.about-btn{
+    position: absolute;
+    margin-top: 605px;
+    margin-left:405px;
+    font-size: 1.5em;
+    color: #FFFF;
+    font-family:'Open Sans';
+    font-style: normal;
+}
+.socials{
+    position: absolute;
+    margin-top:700px;
+    margin-left:100px;
+    height:50px;
+    width:140px
+}
+@media only screens and (max-width:400px){
+    .body{
+        background-color: aqua;
+    }
+    .logo-bg{
+        height: 5000px;
+    }
+}

@@ -1,0 +1,9 @@
+.heading{
+    color: #FFFF;
+    position: absolute;
+    margin-top:60px;
+    margin-left:300px;
+    font:100;
+    font-size:6.5em;
+    font-weight:200;
+}

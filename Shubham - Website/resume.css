@@ -1,0 +1,566 @@
+body{
+    background-image:url(Images/bg.png);
+    background-repeat:round;
+    background-size:cover;
+    background-attachment: fixed;
+}
+.logo-bg{
+    position: absolute;
+    margin-top:30px;
+    margin-left:30px;
+    width: 126px;
+    height: 126px;
+    border-radius: 80px;
+    background-color:rgb(0, 0, 0);
+    border-width: thick;
+}
+.logo{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 12px;
+    border-radius: 90px;
+    height:100px; 
+    width:100 px;
+}
+.nav-bar{
+    position:absolute;
+    margin-top:80px;
+    margin-left:700px;
+    width: 750px;
+    height: 60px;
+    background-color: black;
+    border-radius:30px;
+}
+.home-btn{
+    position: absolute;
+    margin-top:15px;
+    margin-left:35px;
+    color: #FFFF;
+    font-size: 1.5em;
+    font-family: 'Open Sans';
+    font-style: normal;
+    
+}
+.portfolio-btn{
+    position: absolute;
+    margin-top:15px;
+    margin-left:155px;
+    color: #FFFF;
+    font-size:1.5em;
+    font-family:'Open Sans';
+    font-style: normal 
+}
+.resume-btn{
+    position: absolute;
+    margin-top:15px;
+    margin-left:320px;                    
+    color:68B0E5;
+    font-size: 1.5em;
+    font-family:'Open Sans';
+    font-style: normal
+}
+.about-btn{
+    position: absolute;
+    margin-top:15px;
+    margin-left:480px;
+    font-size: 1.5em;
+    color: #FFFF;
+    font-family:'Open Sans';
+    font-style: normal;
+}
+.contact-btn{
+    position: absolute;
+    margin-top:15px;
+    margin-left: 620px;
+    font-size: 1.5em;
+    color: #FFFF;
+    font-family:'Open Sans';
+    font-style: normal;
+}
+.heading{
+    
+    color:#FFFF;
+    position: absolute;
+    margin-top:60px;
+    margin-left:300px;
+    font:100;
+    font-size:6.5em;
+    font-weight:200;
+
+}
+.edu-head{
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 70px;
+    color:#FFFF;
+    font-size:2.6em;
+    font-family: Montserrat;
+    padding-left:15px;
+    padding-right: 15px;
+    border-radius: 30px;
+    background-color:#737373a6;
+}
+.line-div1{
+    position: absolute;
+    margin-top: 230px;
+    margin-left: 30px;
+    height: 250px;
+    width: 70px;
+}
+.line1-1{
+    height:200px;
+    width:30px;
+}
+.line1-2{
+    height:135px;
+    width:30px;
+    position: absolute;
+    top: 65px;
+    left: 20px;
+}
+
+.year1 {
+    color: #FFFF;
+    font-family: Anonymous Pro;
+    font-size: 1.7em;
+    position: absolute;
+    margin-top: 285px;
+    margin-left: 440px;
+    height: 25px;
+    width: 150px;
+    font-weight: 600;
+    background-color: #737373a6;
+    padding: 5px;
+    text-align: center;
+}
+.education{
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 85px;
+    height: 250px;
+    width: 500px;
+}
+.degree{
+    color: #FFFF;
+    font-family: Anonymous Pro;
+    font-size: 1.7em;
+    position: absolute;
+    background-color: black;
+    padding: 2px;
+}
+.department{
+    color: #FFFF;
+    font-family: Anonymous Pro;
+    font-size: 1.7em;
+    position: absolute;
+    margin-top: 80px;
+}
+.university{
+    color: #FFFF;
+    font-family: Anonymous Pro;
+    font-size: 1.7em;
+    position: absolute;
+    margin-top: 147px;
+}
+.skills{
+    position: absolute;
+    margin-top: 495px;
+    margin-left: 70px;
+    color:#FFFF;
+    font-size:2.6em;
+    font-family: Montserrat;
+    padding-left:15px;
+    padding-right: 15px;
+    border-radius: 30px;
+    background-color:#737373a6;
+}
+.line-div2{
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 30px;
+    height: 440px;
+    width: 900px;
+}
+.line2-1{
+    height:415px;
+    width:30px;
+}
+.line2-2{
+    height:130px;
+    width:30px;
+    position: absolute;
+    top: 75px;
+    left: 20px;
+}
+.line2-3{
+    height:160px;
+    width:30px;
+    position: absolute;
+    top:255px;
+    left: 20px;
+}
+.line2-4{
+    height:150px;
+    width:30px;
+    position: absolute;
+    top:75px;
+    left: 800px;
+}
+.line2-5{
+    height:160px;
+    width:30px;
+    position: absolute;
+    top:255px;
+    left:800px;
+}
+.year2{
+    font-size: 1.2em;
+    position: absolute;
+    margin-top: 605px;
+    margin-left: 257px;
+    font-weight: 300;
+    color: #FFFF;
+    font-family: Anonymous Pro;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #737373a6;
+}
+.year3{
+    font-size: 1.2em;
+    position: absolute;
+    margin-top: 633px;
+    margin-left: 257px;
+    font-weight: 300;
+    color: #FFFF;
+    font-family: Anonymous Pro;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #737373a6;
+}
+.year4{
+    font-size: 1.2em;
+    position: absolute;
+    margin-top: 660px;
+    margin-left: 257px;
+    font-weight: 300;
+    color: #FFFF;
+    font-family: Anonymous Pro;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #737373a6;
+}
+.div-prog{
+    position: absolute;
+    margin-top: 520px;
+    margin-left: 90px;
+    height: 230px;
+    width: 650px;
+}
+.head-programming{
+    position: absolute;
+    background-color: black;
+    color: #FFFF;
+    font-family: Anonymous Pro;
+    font-size: 1.7em;
+    padding: 2px;
+}
+.prog-languages{
+    color: #FFFF;
+    position: absolute;
+    font-family: Anonymous Pro;
+    font-size: 1.7em;
+    margin-top: 80px;
+}
+.div-technical{
+    position: absolute;
+    margin-top: 700px;
+    margin-left: 90px;
+    height: 230px;
+    width: 670px;
+}
+.head-technical{
+    position: absolute;
+    background-color: black;
+    font-size: 1.7em;
+    color: #FFFF;
+    font-family: Anonymous Pro;
+    padding: 2px;
+}
+.tech-skills{
+    position: absolute;
+    color: #FFFF;
+    font-size: 1.7em;
+    font-family: Anonymous Pro;
+    top: 50px;
+}
+.div-languages{
+    position: absolute;
+    margin-top: 520px;
+    margin-left: 870px;
+    height: 230px;
+    width: 200px;
+}
+.head-languages{
+    position: absolute;
+    background-color: black;
+    font-size: 1.7em;
+    color: #FFFF;
+    font-family: Anonymous Pro;
+    padding: 2px;
+}
+.languages{
+    color: #FFFF;
+    font-family: Anonymous Pro;
+    position: absolute;
+    font-size: 1.7em;
+    top: 50px;
+}
+.div-subject{
+    position: absolute;
+    margin-top: 700px;
+    margin-left: 870px;
+    height: 190px;
+    width: 500px;
+}
+.head-subject{
+    position: absolute;
+    color: #FFFF;
+    font-family: Anonymous Pro;
+    background-color: black;
+    font-size: 1.7em;
+    padding: 2px;
+}
+.subjects{
+    color: #FFFF;
+    font-family: Anonymous Pro;
+    position: absolute;
+    font-size: 1.7em;
+    top: 50px;
+}
+.line-div3{
+    position: absolute;;
+    margin-top: 215px;
+    margin-left: 830px;
+    height: 250px;
+    width: 70px;
+}
+.line3-1{
+    height:175px;
+    width:30px;
+    position: absolute;
+}
+.line3-2{
+    height:110px;
+    width:30px;
+    position: absolute;
+    top: 65px;
+    left: 20px;
+}
+.year5{
+    font-size: 1.7em;
+    position: absolute;
+    color: #FFFF;
+    font-family: Anonymous Pro;
+    margin-top: 278px;
+    margin-left: 1260px;
+    height: 30px;
+    width: 150px;
+    font-weight: 600;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    background-color: #737373a6;
+}
+.head-VolunteerExp{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 870px;
+    color:#FFFF;
+    font-size:2.6em;
+    font-family: Montserrat;
+    border-radius: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 450px;
+    background-color:#737373a6;
+}
+.div-VolunteerExp{
+    position: absolute;
+    margin-top: 245px;
+    margin-left: 890px;
+    padding: 5px;
+    height: 160px;
+    width: 580px;
+}
+.ngo-name{
+    position: absolute;
+    background-color: black;
+    color: #FFFF;
+    font-family: Anonymous Pro;
+    font-size: 1.7em;
+    padding: 2px;
+}
+.ngo-position{
+    position: absolute;
+    color: #FFFF;
+    font-family: Anonymous Pro;
+    font-size: 1.7em;
+    top: 40px;
+}
+.ngo-projects{
+    position: absolute;
+    color: #FFFF;
+    font-family: Anonymous Pro;
+    font-size: 1.7em;
+    top: 80px;
+}
+.head-publications{
+    position: absolute;
+    margin-top: 990px;
+    margin-left: 870px;
+    color:#FFFF;
+    font-size:2.6em;
+    font-family: Montserrat;
+    border-radius: 30px;
+    padding-left:15px;
+    padding-right:15px;
+    background-color:#737373a6;
+}
+.line-div4{
+    position: absolute;;
+    margin-top: 1000px;
+    margin-left: 830px;
+    height: 250px;
+    width: 70px;
+}
+.line4-1{
+    height:295px;
+    width:30px;
+    position: absolute;
+    top: 0px;
+    left:0px;
+}
+.line4-2{
+    height:230px;
+    width:30px;
+    position: absolute;
+    top: 65px;
+    left: 20px;
+}
+.div-publications{
+    position: absolute;
+    margin-top: 1030px;
+    margin-left: 890px;
+    height: 300px;
+    width: 540px;
+}
+.publication-type{
+    position: absolute;
+    color: #FFFF;
+    font-family: Anonymous Pro;
+    font-size: 1.7em;
+    background-color: black;
+    padding: 2px;
+}
+.publication-authority{
+    position: absolute;
+    color: #FFFF;
+    font-family: Anonymous Pro;
+    font-size: 1.7em;
+    top: 40px;
+}
+.publication{
+    position: absolute;
+    color: #FFFF;
+    font-family: Anonymous Pro;
+    font-size: 1.7em;
+    top: 80px;
+}
+.head-hobbies{
+    position: absolute;
+    margin-top: 996px;
+    margin-left: 70px;
+    color:#FFFF;
+    font-size:2.6em;
+    font-family: Montserrat;
+    border-radius: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color:#737373a6;
+}
+.line-div5{
+    position: absolute;;
+    margin-top: 1000px;
+    margin-left: 30px;
+    height: 250px;
+    width: 30px;
+}
+.line5-1{
+    height:360px;
+    width:30px;
+}
+.line5-2{
+    height:160px;
+    width:30px;
+    position: absolute;
+    top: 65px;
+    left: 20px;
+}
+.line5-3{
+    height:100px;
+    width:30px;
+    position: absolute;
+    top: 260px;
+    left: 20px;
+}
+.div-hobbies{
+    position: absolute;
+    margin-top: 1030px;
+    margin-left: 90px;
+    height: 190px;
+    width: 500px;
+}
+.head-sports{
+    position: absolute;
+    background-color: black;
+    color: #FFFF;
+    font-family: Anonymous Pro;
+    font-size: 1.7em;
+    padding: 2px;
+}
+.sports{
+    color: #FFFF;
+    position: absolute;
+    color: #FFFF;
+    font-family: Anonymous Pro;
+    font-size: 1.7em;
+    top: 50px;
+}
+.div-arts{
+    position: absolute;
+    margin-top: 1220px;
+    margin-left: 90px;
+    height: 190px;
+    width: 500px;
+}
+.head-arts{
+    position: absolute;
+    background-color: black;
+    color: #FFFF;
+    font-family: Anonymous Pro;
+    font-size: 1.7em;
+    padding: 2px;
+}
+.arts{
+    color: #FFFF;
+    position: absolute;
+    color: #FFFF;
+    font-family: Anonymous Pro;
+    font-size: 1.7em;
+    top: 50px;
+}
+@media only screen and (min-width:400px){
+   .body{
+       background-color: aqua;
+   }
+}
